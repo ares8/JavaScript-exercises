@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="02.css">
+</head>
+
+<body>
+	<div class="container">
+		<canvas width="1560" height="900"></canvas>
+
+		<div class="menu">
+			<div class="display">
+				<div class="intro">
+					<p class="title">GAME OF LIFE</p>
+					<p class="round">ROUND: 0</p>
+				</div>
+			</div>
+
+			<div class="control">
+				<button class="start">▶ START</button>
+				<button class="reset">↻ RESET</button>
+				<button class="next">↷ NEXT</button>
+			</div>
+
+			<div class="speed">
+				<p>SPEED</p>
+				<input type="range" min="0.4" max="5" step="0.1" value="1">
+			</div>
+
+		</div>
+	</div>
+
+	<script type="module" src="game.js"></script>
+	<script type="module" src="controler.js"></script>
+	<script type="module" src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="01.css">
+</head>
+
+<body>
+	<div class="container">
+		<canvas id="canvas"></canvas>
+
+		<div class="menu">
+			<div class="display">
+				<div class="intro">
+					<p class="title">BOUNCY SIMULATOR</p>
+					<label>COINS</label><input class="coins" type="number">
+					<p class="message"></p>
+					<div class="bottom-navbar">INPUT COINS AND PRESS 'START'</div>
+				</div>
+			</div>
+
+			<div class="control">
+				<button class="start">▶ START</button>
+				<button class="reset">↻ RESET</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="module" src="example.js"></script>
+	<script type="module" src="simulator.js"></script>
+	<script type="module" src="controler.js"></script>
+	<script type="module" src="main.js"></script>
+</body>
+
+</html>
